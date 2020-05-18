@@ -59,7 +59,6 @@ h1,h2,h3 {
   font-weight: 300;
   text-transform: uppercase;
   word-spacing: 4px;
-
 }
 
 h1 {
@@ -324,10 +323,6 @@ header {
     padding-top: 45%;
 }
 
-.step-boxs {
-  margin-top: 30px;
-}
-
 .step-boxs:first-child {
   text-align: right;
   padding-right: 3%;
@@ -370,6 +365,11 @@ header {
   text-align: justify;
 }
 
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+
 .btn-app img {
   width: auto;
   height: 50px;
@@ -378,3 +378,44 @@ header {
 /*-------------------------------*/
 /* End of how it works section*/
 /*-------------------------------*/
+
+
+/* Cities section */
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.city-features {
+  margin-bottom: 5px;
+}
+
+.icon-small {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 120%;
+  color: #e67e22;
+  text-align: center;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 2px;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 2px solid transparent;
+}
+
+/* End of cities section*/

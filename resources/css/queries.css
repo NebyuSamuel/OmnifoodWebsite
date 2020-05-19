@@ -1,0 +1,36 @@
+
+/* Bigger tablets to 1200px */
+
+@@media only screen and (max-width : 1200px) {
+
+  .hero-text-box {
+    width: 100%;
+    
+  }
+
+}
+
+/* End of bigger tablets to 1200px */
+
+/* Smaller tablets to Bigger tablets*/
+
+@media only screen and (max-width : 1023px) {
+
+}
+
+/* End of smaller tablets to bigger tablets*/
+
+/* Smaller phones to smaller tablets */
+@media only screen and (max-width : 767px) {
+
+}
+
+/* End of smaller phones to smaller tablets */
+
+
+/* Smaller phones: 0 - 480px*/
+@media only screen and (max-width : 480px) {
+
+}
+
+/* End of smaller phones : 0 - 480px */

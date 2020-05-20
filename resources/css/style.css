@@ -338,6 +338,7 @@ header {
 }
 
 .works-steps {
+  display: inline-block;
   margin-bottom: 30px;
 }
 
@@ -369,6 +370,7 @@ header {
 }
 
 .btn-app img {
+  display: inline-block;
   width: auto;
   height: 50px;
 }
@@ -492,8 +494,7 @@ cite img {
 
 .plan-box div:first-child{
   background-color: #fcfcfc;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+
 }
 
 .plan-box div:last-child{

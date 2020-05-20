@@ -1,36 +1,192 @@
 
-/* Bigger tablets to 1200px */
-
-@@media only screen and (max-width : 1200px) {
-
+/* Bigger tablets upto 1200 px or less than 1140px */
+/* 1024px - 1200px */
+@media only screen and (max-width : 1200px) {
   .hero-text-box {
     width: 100%;
-    
+    padding : 0 2%;
+  }
+
+  .row {
+    padding : 0 2%;
+  }
+}
+/* End of bigger tablets*/
+
+/*smaller tablets to bigger tablets upto 1023px */
+/* 768px - 1023px*/
+
+@media only screen and (max-width : 1023px){
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .long-type {
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+  }
+
+  .step-boxs {
+    margin-top: 10px;
+  }
+  .step-boxs:last-child{
+    margin-top: 25px;
+  }
+
+
+  .works-steps {
+    margin-bottom: 40px;
+  }
+
+  .works-steps div {
+    margin-right: 20px;
+  }
+
+  .works-steps:last-of-type{
+    margin-bottom: 40px;
+  }
+  .btn-app img{
+    width: 40%;
+    height: 20%;
+  }
+
+  .box p {
+    text-align: left;
+  }
+
+  .icon-small {
+    margin-right: 7px;
+  }
+
+  .city-features {
+    font-size: 90%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin: 0;
+  }
+
+  .plan-price {
+    font-size: 180%;
+  }
+
+  .contact-form {
+    width: 80%;
   }
 
 }
 
-/* End of bigger tablets to 1200px */
 
-/* Smaller tablets to Bigger tablets*/
+/* smaller phones to smaller tablets*/
+/* 480px - 767px */
+@media only screen and (max-width:767px){
 
-@media only screen and (max-width : 1023px) {
+body {
+  font-size: 16px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.row,
+.hero-text-box {
+  padding: 0 4%;
+}
+.col {
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+.icon-big {
+  font-size: 200%;
+  text-align : left;
+}
+
+.long-copy {
+  width: 90%;
+  margin-left : 5%;
+  text-align: justify;
+}
+
+.step-boxs:first-child{
+  text-align: center;
+  padding: 0 3%;
+}
+
+.works-steps div {
+  width: 40px;
+  height: 40px;
+  padding: 1%;
+  font-size: 120%;
+  margin-right: 15px;
+}
+
+.works-steps {
+  margin-bottom: 20px;
+}
+
+.works-steps:last-of-type{
+  margin-bottom: 20px;
+}
+
+.btn-app img{
+  width: 20%;
+  height: 10%;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+h3 {
+  font-size: 90%;
+}
+
+
+.plan-box ul li{
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+
+
+.main-nav {
+  margin-top: 10px;
+  float: right;
 
 }
 
-/* End of smaller tablets to bigger tablets*/
-
-/* Smaller phones to smaller tablets */
-@media only screen and (max-width : 767px) {
-
+.main-nav li {
+  display: block;
+  margin-bottom: 10px;
 }
 
-/* End of smaller phones to smaller tablets */
-
-
-/* Smaller phones: 0 - 480px*/
-@media only screen and (max-width : 480px) {
-
+.main-nav li:link,
+.main-nav li:visited{
+  display: block;
 }
 
-/* End of smaller phones : 0 - 480px */
+.hero-text-box {
+  margin-top: 30px;
+}
+
+footer {
+  padding: 0px;
+}
+
+footer p {
+  margin-top: 0px;
+}
+}
+/* End of smaller phones to smaller tablets*/

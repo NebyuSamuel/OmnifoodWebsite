@@ -11,8 +11,8 @@
     <link rel = "stylesheet" type = "text/css" href = "vendors/css/normalize.css" >
     <link rel = "stylesheet" type = "text/css" href = "vendors/css/grid.css" >
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link rel = "stylesheet" type = "text/css" href = "resources/css/style.css" >
+    <link rel = "stylesheet" type = "text/css" href = "resources/css/queries.css" >
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
   </head>
 
@@ -25,10 +25,10 @@
         <div class="row">
           <img src="./resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
           <ul class="main-nav">
-            <li> <a href="#"> Food delivery </a> </li>
-            <li> <a href="#"> How it works </a> </li>
-            <li> <a href="#"> Our cities </a> </li>
-            <li> <a href="#"> Sign up </a> </li>
+            <li> <a href="#food_delivery"> Food delivery </a> </li>
+            <li> <a href="#how_it_works"> How it works </a> </li>
+            <li> <a href="#cities"> Our cities </a> </li>
+            <li> <a href="#signup"> Sign up </a> </li>
           </ul>
         </div>
       </nav>
@@ -47,7 +47,7 @@
 
 
     <!-- Features section -->
-    <section class = "section-features">
+    <section class = "section-features" id="food_delivery">
 
 
       <div class="row">
@@ -159,7 +159,7 @@
 
 
     <!-- How it works section -->
-      <section class = "section-steps">
+      <section class = "section-steps" id="how_it_works">
         <div class="row">
           <h2> How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
@@ -194,8 +194,10 @@
               <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
             </div>
 
-            <a href="#" class="btn-app"> <img src="resources/img/download-app.svg" alt="App Store download"></a>
-            <a href="#" class="btn-app"> <img src="resources/img/download-app-android.png" alt="Play Store download"></a>
+            <div class="">
+              <a href="#" class="btn-app"> <img src="resources/img/download-app.svg" alt="App Store download"></a>
+              <a href="#" class="btn-app"> <img src="resources/img/download-app-android.png" alt="Play Store download"></a>
+            </div>
 
           </div>
           <!-- End of the second column-->
@@ -205,7 +207,7 @@
     <!-- End of how it works section-->
 
     <!-- cities section -->
-    <section class = "section-cities">
+    <section class = "section-cities" id="cities">
       <!-- Heading for cities section -->
       <div class="row">
         <h2> We're currently in these cities </h2>
@@ -340,7 +342,7 @@
     <!-- End of Testimonial section -->
 
     <!-- Plan section -->
-      <section class="section-plan">
+      <section class="section-plan" id="signup">
 
         <!-- Heading for plan section-->
         <div class="row">
@@ -526,7 +528,7 @@
 
       <!-- footer license text -->
       <div class="row">
-        <p> Copyright &copy; by Nucleus All rights reserved</p>
+        <p> Copyright &copy; by Zowi All rights reserved</p>
       </div>
       <!-- End of footer license text-->
       <!-- end of footer socil media icons-->
